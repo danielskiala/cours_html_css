@@ -37,8 +37,8 @@ body {
 
 .wrapper-container .card-forms {
   width: 100%;
-  max-width: 800px;
-  margin: 150px auto 0;
+  max-width: 1000px;
+  margin: 80px auto 0;
 }
 
 .wrapper-container .card-forms .card-content{
@@ -63,7 +63,7 @@ body {
 
 .wrapper-container .card-forms .card-content .card-box-left{
     background:#06031f;
-    padding:20px;
+    padding:50px 60px;
 }
 
 .card-box-left .card-head{
@@ -94,9 +94,156 @@ body {
 .card-box-left .card-left-content .bloc-icons .icon{
     width:90px;
     height:90px;
-    border:1px solid red;
     display:flex;
     justify-content:center;
     align-items:center;
     border-radius:50%;
+}
+
+
+.card-box-left .card-left-content .bloc-icons .icon-1{
+    background:linear-gradient(to top, #f6f874, #f8c44b);
+}
+
+.card-box-left .card-left-content .bloc-icons .icon-2{
+    background:linear-gradient(to top, #d563f8, #ce85f3);
+}
+
+.card-box-left .card-left-content .bloc-icons .icon-3{
+    background:#21e0e0;
+}
+
+.card-box-left .card-left-content .bloc-text{
+    text-align:center;
+    color:#fff;
+    margin-top:30px;
+    padding:10px 30px;
+}
+
+.card-box-left .card-left-content .bloc-text h2{
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+.card-box-left .card-left-content .bloc-text p{
+    margin-top:20px;
+}
+
+.card-box-left .card-left-content .bloc-arrows{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    padding:30px 0;
+}
+
+.card-box-left .card-left-content .bloc-arrows .icon-right,
+.card-box-left .card-left-content .bloc-arrows .icon-left{
+    background:#fff;
+    width:40px;
+    height: 40px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:20px;
+    cursor:pointer;
+}
+
+.card-box-left .card-left-content .bloc-arrows .icon-left{
+    background:rgba(255, 255, 255, .3);
+}
+
+.card-box-left .card-left-content .bloc-arrows .icon-left svg,
+.card-box-left .card-left-content .bloc-arrows .icon-left svg polyline,
+.card-box-left .card-left-content .bloc-arrows .icon-left svg line{
+    stroke:#fff;
+}
+
+.card-box-left .card-left-content .bloc-arrows  svg{
+    width:26px;
+    height:26px;
+}
+
+.wrapper-container .card-forms .card-content .card-box-right{
+    background:#fff;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding:50px;
+}
+
+.card-content .card-box-right .card-head-title{
+    text-align:center;
+}
+
+.card-content .card-box-right .card-head-title h2{
+    text-transform:capitalize;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.card-content .card-box-right .card-head-title .card-right-icons{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.card-content .card-box-right .card-head-title .card-right-icons img{
+    width:22px;
+    height:22px;
+    object-fit:cover;
+}
+
+.card-content .card-box-right .card-head-title .card-right-icons .icon{
+    width:50px;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    line-height:0px;
+    margin-right: 10px;
+    border-radius:8px;
+    background:#f5fbf6;
+}
+
+.card-content .card-box-right .card-head-title p{
+    margin-top:20px;
+}
+
+.card-content .card-box-right .bloc-form{
+    margin-top:40px;
+    width:100%;
+}
+
+.card-content .card-box-right .bloc-form .group-form{
+    margin-bottom:20px;
+}
+
+.card-content .card-box-right .bloc-form .group-form label{
+    display:block;
+    font-size:14px;
+    margin-bottom:8px;
+}
+
+.card-content .card-box-right .bloc-form .group-form input{
+    background:#f0faf2;
+    border:none;
+    outline:none;
+    padding:15px 20px;
+    width:100%;
+    border-radius:6px;
+}   
+
+.card-content .card-box-right .bloc-form .group-btn button{
+    width:100%;
+    outline:none;
+    border:none;
+    background:#4D96FF;
+    padding:14px 20px;
+    font-size:15px;
+    font-weight:bold;
+    color:#fff;
+    border-radius:6px;
+    cursor:pointer;
 }
